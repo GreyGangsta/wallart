@@ -1,0 +1,21 @@
+header p:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.4s;
+}
+
+header p:active{
+  opacity: 0.1;
+  transition: all 0.3s;
+}
+
+@media (max-width: 670px) {
+  header p{
+    display: none;
+  }
+  header h1{
+    font-size: 30px;
+    padding-left: 25px;
+  }
+
+}
