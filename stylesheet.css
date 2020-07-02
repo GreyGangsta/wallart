@@ -1,0 +1,25 @@
+*{
+  font-family: fantasy;
+}
+
+header{
+  color: white;
+  font-weight: normal;
+  background-color: #000000;
+  opacity: 0.8;
+  border-radius: 20px;
+
+}
+
+header h1{
+  display: inline-block;
+  padding: 13px 50px;
+  font-size: 40px;
+
+}
+header p{
+
+  float: right;
+  padding: 35px 50px;
+  font-size: 20px;
+}
